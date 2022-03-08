@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+    text-align: a;
+}
+.menu {
+    background-color: red;
+    float: right; 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+} 
+
+li{
+    display: inline;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.shoes1 img {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shoes1 p {
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container2 {
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+.shoes2 img {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shoes2 p {
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.container3 {
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+}
+.shoes3 img {
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.shoes3 p {
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
